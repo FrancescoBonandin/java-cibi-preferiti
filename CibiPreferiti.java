@@ -13,7 +13,12 @@ public class CibiPreferiti {
 
 	public static void main(String[] args) {
 		
-		String[] favoriteFood = {"pizza", "pasta", "sushi", "patatine", "pane"} ;
+		String[] favouriteFood = {"pizza", "pasta", "sushi", "patatine", "pane"} ;
+		
+		System.out.println(favouriteFood.length);
+		System.out.println(favouriteFood[0]);
+		System.out.println(favouriteFood[favouriteFood.length-1]);
+
 	}
 
 }
